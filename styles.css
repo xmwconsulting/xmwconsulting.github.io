@@ -58,18 +58,28 @@ nav a {
 }
 nav a:link {
     color: #000000;
+    background-color: #FAFAFA;
+    border-bottom: thin solid #DDDDDD;
 }
 nav a:visited {
     color: #000000;
+    background-color: #FAFAFA;
+    border-bottom: thin solid #DDDDDD;
 }
 nav a.this {
-    color: #FFC17F;
+    color: #FFCC99;
+    background-color: #FAFAFA;
+    border-bottom: thin solid #DDDDDD;
 }
 nav a:hover {
-    color: #FFC17F;
+    color: #FFCC99;
+    background-color: #FAFAFA;
+    border-bottom: thin solid #DDDDDD;
 }
 nav a:active {
-    color: #FFC17F;
+    color: #FFCC99;
+    background-color: #FAFAFA;
+    border-bottom: thin solid #DDDDDD;
 }
 
 img {
