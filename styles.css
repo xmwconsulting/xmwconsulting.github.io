@@ -31,10 +31,6 @@
     color: #AAAAAA;
 }
 
-header {
-    border-bottom: thin solid #DDDDDD;
-}
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -55,35 +51,28 @@ nav a {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 13pt;
+    background-color: #FAFAFA;
+    border-top: thin solid #DDDDDD;
+    border-bottom: thin solid #DDDDDD;
 }
 nav a:link {
     color: #000000;
-    background-color: #FAFAFA;
-    border-bottom: thin solid #DDDDDD;
 }
 nav a:visited {
     color: #000000;
-    background-color: #FAFAFA;
-    border-bottom: thin solid #DDDDDD;
 }
 nav a.this {
     color: #FFCC99;
-    background-color: #FAFAFA;
-    border-bottom: thin solid #DDDDDD;
 }
 nav a:hover {
     color: #FFCC99;
-    background-color: #FAFAFA;
-    border-bottom: thin solid #DDDDDD;
 }
 nav a:active {
     color: #FFCC99;
-    background-color: #FAFAFA;
-    border-bottom: thin solid #DDDDDD;
 }
 
 img {
-    border-style: none;
+    border-style: none; 
 }
 
 p.highlight {
