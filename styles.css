@@ -76,6 +76,11 @@ img {
     border-style: none;
 }
 
+p.highlight {
+    text-align:center;
+    font-weight:bold;
+}
+
 p.quote {
     font-style: italic;
     text-indent: 20px;
