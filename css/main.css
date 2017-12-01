@@ -61,9 +61,6 @@ nav a:link {
 nav a:visited {
     color: #000000;
 }
-nav a.this {
-    color: #FFCC99;
-}
 nav a:hover {
     color: #FFCC99;
 }
