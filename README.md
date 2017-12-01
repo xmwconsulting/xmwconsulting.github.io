@@ -1,2 +1,3 @@
-# xmwconsulting.github.io
-XMW Consulting
+### xmwconsulting.github.io
+
+Website of XMW Consulting Ltd.
