@@ -42,7 +42,7 @@ nav li {
 
 nav a {
     display: block;
-    width: 192px;
+    max-width: 192px;
     font-weight: bolder;
     text-align: center;
     padding: 4px;
