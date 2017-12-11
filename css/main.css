@@ -6,28 +6,26 @@ html {
 
 body {
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 header {
-    margin-bottom: 40px;
 }
 
 main {
-    /*max-width: 760px;*/
-    font-size:12pt;
-    text-align:justify;
+    font-size:  12pt;
+    text-align: justify;
+
+    margin:     20px;
 }
 
 footer {
-    /*max-width: 760px;*/
-    margin-top: 40px;
-    border-top: thin solid #DDDDDD;
     font-family: Courier;
-    font-size: 8pt;
-    text-align: right;
-    color: #AAAAAA;
+    font-size:   8pt;
+    text-align:  right;
+    color:       #AAAAAA;
+
+    margin:     20px;
+    border-top: thin solid #DDDDDD;
 }
 
 nav ul {
