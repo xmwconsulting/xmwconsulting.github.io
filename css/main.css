@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,13 +15,13 @@ header {
 }
 
 main {
-    max-width: 760px;
+    /*max-width: 760px;*/
     font-size:12pt;
     text-align:justify;
 }
 
 footer {
-    max-width: 760px;
+    /*max-width: 760px;*/
     margin-top: 40px;
     border-top: thin solid #DDDDDD;
     font-family: Courier;
@@ -42,7 +42,7 @@ nav li {
 
 nav a {
     display: block;
-    max-width: 192px;
+    /*max-width: 192px;*/
     font-weight: bolder;
     text-align: center;
     padding: 4px;
