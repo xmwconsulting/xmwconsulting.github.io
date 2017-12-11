@@ -33,40 +33,34 @@
     </head>
     
     <body> 
-        
-        <div id="main">  
-            
-            <div id="header">   
-                
-                <a href="/">
-                    <img src="/graphics/xmw-logo-clipped-135x50.png" width="135" height="50" alt="XMW Consulting">
-                </a>
-                <nav> 
-                    <ul> 
-                        <li><a href="/">Home</a></li> 
-                        <li><a href="/services">Services</a></li> 
-                        <li><a href="/recommendations">Recommendations</a></li> 
-                        <li><a href="/contact">Contact</a></li> 
-                    </ul> 
-                </nav> 
-                
-            </div>  
-            
-            <div id="body">  
-            
-                {{ content }}
-                
-            </div>   
-            
-            <div id="footer"> 
-                <footer> 
-                    &copy; Copyright 2015 XMW Consulting Ltd. MathWorks and MATLAB are 
-                    registered trademarks of The MathWorks, Inc. 
-                </footer> 
-            </div> 
-            
-        </div>  
-        
+                    
+        <header>   
+
+            <a href="/">
+                <img src="/graphics/xmw-logo-clipped-135x50.png" width="135" height="50" alt="XMW Consulting">
+            </a>
+            <nav> 
+                <ul> 
+                    <li><a href="/">Home</a></li> 
+                    <li><a href="/services">Services</a></li> 
+                    <li><a href="/recommendations">Recommendations</a></li> 
+                    <li><a href="/contact">Contact</a></li> 
+                </ul> 
+            </nav> 
+
+        </header>  
+
+        <main>  
+
+            {{ content }}
+
+        </main>   
+
+        <footer> 
+            &copy; Copyright 2015 XMW Consulting Ltd. MathWorks and MATLAB are 
+            registered trademarks of The MathWorks, Inc. 
+        </footer> 
+                    
     </body>
     
 </html>
