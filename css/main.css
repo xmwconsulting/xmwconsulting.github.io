@@ -6,6 +6,7 @@ html {
 
 body {
     max-width: 800px;
+    margin:    auto;
 }
 
 header {
@@ -37,7 +38,7 @@ nav ul {
 
 nav li {
     float: left;
-    min-width: 190px;
+    min-width: 200px;
 }
 
 nav a {
