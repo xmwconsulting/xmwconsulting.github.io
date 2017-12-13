@@ -1,0 +1,10 @@
+.highlight {background: #ffffff; color: #444444;}
+
+.highlight .language-matlab .c1 {color: #00AA00; font-style: italic} /* Comment.Single */
+
+.highlight .language-matlab .k  {color: #0000FF}                     /* Keyword */
+.highlight .language-matlab .nb {color: #0000FF}                     /* Name.Builtin */
+
+/* TODO Make rouge lex/parse MATLAB properly */
+
+/* Copyright 2017 XMW Consulting Ltd. */

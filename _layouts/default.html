@@ -6,10 +6,10 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=800, initial-scale=1">
         <meta name="keywords" content="data science, statistics, machine learning, MATLAB, MathWorks, consulting">
-        <meta name="description" content="XMW Consulting provides consultancy and contract services in data science, statistical analysis, and MATLAB development.">
+        <meta name="description" content="{{ site.description }}">
         <meta name="author" content="Sam Roberts">
-        <meta name="copyright" content="Copyright 2015 XMW Consulting Ltd.">
-        <meta name="date" content="2017-10-11T01:26:40+00:00">
+        <meta name="copyright" content="{{ site.copyright }}">
+        <meta name="date" content="{{ site.time | date_to_xmlschema }}">
         <meta name="google-site-verification" content="c46Ts8YNyvzTTvJxrSF71iyjM2he-7VQj5vTj9ekPlo">
         
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -24,6 +24,7 @@
         <meta name="theme-color" content="#ffffff">
         
         <link href="/css/main.css" rel="stylesheet" type="text/css">
+        <link href="/css/syntax-highlight.css" rel="stylesheet" type="text/css">
         
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:900,400italic,400" rel="stylesheet" type="text/css">
@@ -31,40 +32,23 @@
         <title>{{ page.title }}</title>
         
     </head>
-    
+     
     <body> 
-                    
-        <header>   
-
-        <div class="header">
-            <a href="/">
-                <img src="/graphics/xmw-logo-clipped-135x50.png" width="135" height="50" alt="XMW Consulting">
-            </a>            
-            <nav> 
-                <ul> 
-                    <li><a href="/">Home</a>
-                    <li><a href="/services">Services</a>
-                    <li><a href="/recommendations">Recommendations</a>
-                    <li><a href="/contact">Contact</a> 
-                </ul> 
-            </nav> 
-        </div>
-
-        </header>  
+                   
+        {% include header.html%}
 
         <main>  
 
             {{ content }}
 
         </main>   
-
-        <footer> 
-            &copy; Copyright 2017 XMW Consulting Ltd. MathWorks and MATLAB are 
-            registered trademarks of The MathWorks, Inc. 
-        </footer> 
+                   
+        {% include footer.html%}
+        
+        <div style="min-height: 50px"></div>
                     
     </body>
     
 </html>
 
-<!-- Copyright 2017 XMW Consulting Ltd. --> 
+<!-- {{ site.copyright }} --> 

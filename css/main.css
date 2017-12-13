@@ -26,13 +26,12 @@ main {
 footer {
     font-family: Courier;
     font-size:   8pt;
-    text-align:  right;
     color:       #AAAAAA;
 
     padding-top: 5px;
 }
 
-div.header {
+div.header-flex {
     display:         flex;
     justify-content: center;
     align-items:     center;
@@ -59,22 +58,26 @@ nav a {
     text-decoration: none;
     text-transform:  uppercase;
     font-size:       13pt;
-}
-nav a:link {
-    color: #000000;
-}
-nav a:visited {
-    color: #000000;
+    color:           #000000;
 }
 nav a:hover {
-    color: #FFCC99;
+    color:           #FFCC99;
+}
+
+div.footer-flex {
+    display:         flex;
+    justify-content: space-between;
+}
+
+div.footer-flex a {
+    color:       #AAAAAA;
 }
 
 img {
     border-style: none; 
 }
 
-p.highlight {
+p.callout {
     text-align:  center;
     font-weight: bold;
 }
@@ -91,9 +94,9 @@ p.quoteauthor {
 }
 
 p.serviceexample {
-    text-align:        right;
-    border: thin solid #DDDDDD;
-    background-color:  #FAFAFA;
+    text-align:       right;
+    border:           thin solid #DDDDDD;
+    background-color: #FAFAFA;
 
     padding: 5px;
 }

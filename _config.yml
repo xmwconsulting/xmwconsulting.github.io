@@ -1,0 +1,23 @@
+# Site settings
+title: "XMW Consulting"
+email: info@xmwconsulting.co.uk
+description: >
+  XMW Consulting provides consultancy and contract services in data science, statistical analysis, and MATLAB development.
+copyright: "Copyright 2017 XMW Consulting Ltd."
+baseurl: ""
+
+linkedin-username: samroberts
+github-username: xmwconsulting
+so-userid: 169781
+so-username: sam-roberts
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+exclude: [README.md, Gemfile]
+
+# Copyright 2017 XMW Consulting Ltd.
