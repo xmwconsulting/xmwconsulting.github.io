@@ -13,6 +13,10 @@ header {
     min-height: 50px;
 }
 
+footer {
+    margin-top: 5px;
+}
+
 main {
     font-size:  12pt;
     text-align: justify;
@@ -24,19 +28,17 @@ main {
 }
 
 .subscript-style {
-    font-style:  italic;
-    font-size:   8pt;
-    color:       #AAAAAA;
+    font-style:    italic;
+    font-size:     8pt;
+    color:         #AAAAAA;
+    margin-top:    0px;
+    margin-bottom: 0px;
 }
 
-footer {
-    padding-top: 5px;
-}
-
-footer a {
+.subscript-style a {
     color:       #AAAAAA;
 }
-footer a:hover {
+.subscript-style a:hover {
     color:           #FFCC99;
 }
 

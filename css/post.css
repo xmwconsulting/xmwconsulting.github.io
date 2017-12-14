@@ -3,9 +3,15 @@
 div.tags-and-date-flex {
     display:         flex;
     justify-content: space-between;
+    margin-top:      5px;
+    margin-bottom:   5px;
 }
 
 h2.post-title {
+    margin-bottom: 0px;
+}
+
+h3.post-title {
     margin-bottom: 0px;
 }
 
