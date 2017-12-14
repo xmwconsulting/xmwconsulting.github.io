@@ -18,6 +18,8 @@ kramdown:
 
 highlighter: rouge
 
+permalink: /blog/:year/:month/:day/:title
+
 exclude: [README.md, Gemfile]
 
 # Copyright 2017 XMW Consulting Ltd.
