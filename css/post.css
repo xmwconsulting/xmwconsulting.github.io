@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+div.tags-and-date-flex {
+    display:         flex;
+    justify-content: space-between;
+}
+
+h2.post-title {
+    margin-bottom: 0px;
+}
+
+p.post {
+
+}
+
+div.post-navigation-flex {
+    display:         flex;
+    justify-content: space-between;
+}

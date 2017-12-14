@@ -23,12 +23,21 @@ main {
     border-bottom:  thin solid #DDDDDD;
 }
 
-footer {
-    font-family: Courier;
+.subscript-style {
+    font-style:  italic;
     font-size:   8pt;
     color:       #AAAAAA;
+}
 
+footer {
     padding-top: 5px;
+}
+
+footer a {
+    color:       #AAAAAA;
+}
+footer a:hover {
+    color:           #FFCC99;
 }
 
 div.header-flex {
@@ -69,10 +78,6 @@ div.footer-flex {
     justify-content: space-between;
 }
 
-div.footer-flex a {
-    color:       #AAAAAA;
-}
-
 img {
     border-style: none; 
 }
@@ -87,13 +92,13 @@ p.quote {
     text-indent: 20px;
 }
 
-p.quoteauthor {
+p.quote-author {
     font-style: italic;
     font-size:  8pt;
     text-align: right;
 }
 
-p.serviceexample {
+p.service-example {
     text-align:       right;
     border:           thin solid #DDDDDD;
     background-color: #FAFAFA;

@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .highlight {background: #ffffff; color: #444444;}
 
 .highlight .language-matlab .c1 {color: #00AA00; font-style: italic} /* Comment.Single */
