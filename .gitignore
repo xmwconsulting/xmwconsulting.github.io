@@ -1,4 +1,5 @@
 _site/
 test/
+.jekyll-metadata
 Gemfile
 Gemfile.lock
